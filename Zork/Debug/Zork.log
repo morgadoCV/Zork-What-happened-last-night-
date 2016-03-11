@@ -1,11 +1,25 @@
-﻿Compilación iniciada a las 08/03/2016 20:20:45.
-     1>Proyecto "D:\Visual Studio 2013\Projects\Zork\Zork\Zork.vcxproj" en el nodo 2 (Build destinos).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio 2013\Projects\Zork\Debug\Zork.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio 2013\Projects\Zork\Debug\Zork.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio 2013\Projects\Zork\Debug\Zork.lib" /MACHINE:X86 Debug\header.obj
-         Debug\main.obj
-         Zork.vcxproj -> D:\Visual Studio 2013\Projects\Zork\Debug\Zork.exe
-     1>Compilación del proyecto terminada "D:\Visual Studio 2013\Projects\Zork\Zork\Zork.vcxproj" (Build destinos).
+﻿Compilación iniciada a las 11/03/2016 13:17:12.
+     1>Proyecto "D:\DOCUMENTS\UPC\Programació 2\Zork\Zork-What-happened-last-night-\Zork\Zork.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt foo.cpp main.cpp
+         main.cpp
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(10): error C2143: error de sintaxis : falta ';' delante de '*'
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(10): error C2143: error de sintaxis : falta ';' delante de '='
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(10): error C2238: símbolos (token) inesperados delante de ';'
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2143: error de sintaxis : falta ';' delante de '*'
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2143: error de sintaxis : falta ';' delante de '='
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2238: símbolos (token) inesperados delante de ';'
+         foo.cpp
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2143: error de sintaxis : falta ';' delante de '*'
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2143: error de sintaxis : falta ';' delante de '='
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\world.h(11): error C2238: símbolos (token) inesperados delante de ';'
+     1>d:\documents\upc\programació 2\zork\zork-what-happened-last-night-\zork\foo.cpp(12): error C2065: 'my_exits' : identificador no declarado
+         Generando código...
+     1>Compilación del proyecto terminada "D:\DOCUMENTS\UPC\Programació 2\Zork\Zork-What-happened-last-night-\Zork\Zork.vcxproj" (Build destinos) -- ERROR.
 
-Compilación correcta.
+ERROR al compilar.
 
-Tiempo transcurrido 00:00:01.05
+Tiempo transcurrido 00:00:00.76
